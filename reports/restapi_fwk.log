@@ -1,0 +1,8 @@
+2022-12-10 20:09:41 INFO 4416 conftest.py login_as_*****()
+2022-12-10 20:09:41 DEBUG 4416 conftest.py Loging payload: {'username': '*****', 'password': '*****'}
+2022-12-10 20:09:41 DEBUG 4416 connectionpool.py Starting new HTTP connection (1): 10.78.213.212:8080
+2022-12-10 20:09:41 DEBUG 4416 connectionpool.py http://10.78.213.212:8080 "POST /auth/login HTTP/1.1" 200 285
+2022-12-10 20:09:41 INFO 4416 test_comments.py test_get_all_comments
+2022-12-10 20:09:41 DEBUG 4416 connectionpool.py http://10.78.213.212:8080 "GET /comments HTTP/1.1" 307 None
+2022-12-10 20:09:41 DEBUG 4416 connectionpool.py http://10.78.213.212:8080 "GET /comments/ HTTP/1.1" 200 50
+2022-12-10 20:09:41 DEBUG 4416 test_comments.py [{'id': 1, 'comment_text': 'test comment', 'likes': 0}]
